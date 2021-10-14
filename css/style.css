@@ -1,5 +1,32 @@
-*{
-    margin: 0;
-    padding: 0%;
-    display: block;
+header{
+    height: 60px;
+    color: black;
 }
+
+.jumbotrone img{
+  
+}
+
+
+
+
+.sf-bg-white{
+    background-color: white;
+}
+
+.sf-list-logo{
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding: 4px;
+    width: 40px;
+    text-align: center;
+}   
+
+.sf-pt-15{
+    padding-top: 15px;
+}
+
+.sf-mt-60{
+    margin-top: 60px;
+}
+
