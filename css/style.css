@@ -3,15 +3,28 @@ header{
     color: black;
 }
 
-.jumbotrone img{
-  
+.jumbotrone{
+    height: 560px;
 }
 
+.footer a{
 
-
+}
 
 .sf-bg-white{
     background-color: white;
+}
+
+.sf-bg-black{
+    background-color: black;
+}
+
+.sf-bg-grey{
+    background-color: grey;
+}
+
+.sf-color-white{
+    color: white;
 }
 
 .sf-list-logo{
