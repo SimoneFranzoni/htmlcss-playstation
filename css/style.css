@@ -1,14 +1,36 @@
+
 header{
     height: 60px;
     color: black;
 }
 
-.jumbotrone{
-    height: 560px;
+header img{
+    width: 40px;
+    height: 40px;
 }
 
-.footer a{
+header a{
+    color: black;
+    text-decoration: none;
+}
 
+.jumbotrone-one{
+    height: 650px;
+    background-image: url("../img/img/jumbo-bg.png");
+    background-position: center;
+    background-position-y: inherit;
+}
+
+.jumbotrone-two{
+    height: 750px;
+    background-image: url("../img/img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-position-y: inherit;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }
 
 .sf-bg-white{
@@ -20,26 +42,121 @@ header{
 }
 
 .sf-bg-grey{
-    background-color: grey;
+    background-color: #bebcbb;
+}
+
+.sf-bg-dark-blue{
+    background-color: #161c3b;    
+}
+
+.sf-bg-blue{
+    background-color: #00439c;
+}
+
+.sf-bg-orange{
+    background-color: #cd3d0f;
 }
 
 .sf-color-white{
     color: white;
 }
 
+.sf-color-blue{
+    color: #2d64e6;
+}
+
+.sf-color-grey{
+    color: #757575;
+}
+
+.sf-color-black{
+    color: black;
+}
+
 .sf-list-logo{
-    border: solid grey 1px;
+    border: solid #757575 1px;
     border-radius: 5px;
     padding: 4px;
     width: 40px;
     text-align: center;
 }   
 
-.sf-pt-15{
-    padding-top: 15px;
+.sf-pt-25{
+    padding-top: 25px;
+}
+
+.sf-pt-50{
+    padding-top: 50px;
+}
+
+.sf-pb-25{
+    padding-bottom: 25px;
+}
+
+.sf-pt-200{
+    padding-top: 200px;
+}
+
+.sf-pb-50{
+    padding-bottom: 50px;
 }
 
 .sf-mt-60{
     margin-top: 60px;
 }
 
+.sf-mt-25{
+    margin-top: 25px;
+}
+
+.sf-width-30{
+    width: 30%;
+}
+
+.sf-width-50{
+    width: 50%;
+}
+
+.sf-width-15{
+    width: 15px;
+}
+
+.sf-pt-300{
+    padding-top: 300px;
+}
+
+.sf-br-15{
+    border-radius: 15px;
+}
+
+.sf-px{
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.sf-my-15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sf-col-md
+{
+    width: 20%;
+}
+
+.sf-b-b-b{
+    border-bottom: 3px solid #2d64e6 ;
+}
+
+.sf-grey-filter{
+    filter: grayscale(0.5);
+    filter: opacity(0.5);
+}
+
+/*button*/
+
+.sf-button{
+    border-radius: 20px;
+    width: fit-content;
+    padding: 8px;
+}
